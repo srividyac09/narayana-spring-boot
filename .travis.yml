@@ -1,0 +1,7 @@
+dist: xenial
+arch:
+ - ppc64le
+language: java
+script:
+  - mvn clean install
+  - mvn test
